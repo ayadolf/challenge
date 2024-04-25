@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+  
+  .line{
+    width: 90%;
+
+  }
+  
+  img{
+    width: 100%;
+  }
+  
+
+  body{
+    font-size: 16px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  }
+  
+  .recipe{
+    margin: 20px;
+  }
+  
+  .content{
+    margin-top: 30px;
+  }
+  
+  .content .recipe h1{
+    font-family: 'Young Serif', serif;;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    margin-bottom: 2px;
+  }
+  
+  .content .recipe p{
+    line-height: 1.4rem;
+    
+  }
+  
+  .preparation{
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .preparation h3{
+    color: hsl(332, 51%, 32%);
+  }
+  
+  ul, ol{
+    padding-left: 20px;
+  }
+  
+  ul li, ol li{
+    color: hsl(24, 5%, 18%);
+    line-height: 1.5rem;
+  }
+  
+  .content .recipe h2{
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 2px;
+    font-family: 'Young Serif', serif;
+
+  }
+  
+  ol li{
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+  }
+  
+  table{
+    width: 100%;
+  }
+  
+   tr td{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    text-align: left;
+    padding: 10px;
+    color: hsl(24, 5%, 18%);
+  }
+  .value {
+    font-family: 'Young Serif', serif;
+    color:hsl(14, 45%, 36%) ;
+  }
+  @media (min-width: 767px) {
+
+    body{
+        width: 40%;
+        background-color: hsl(30, 54%, 90%);
+        margin: auto;
+        padding: 50px 0;
+      }
+    .container{
+        background-color: hsl(0, 0%, 100%);
+        padding: 30px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+      }
+  }
+
+  
+ 
+  
+  
+  
+  
+ 
