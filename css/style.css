@@ -6,14 +6,11 @@
   
   .line{
     width: 90%;
-
   }
-  
   img{
     width: 100%;
   }
   
-
   body{
     font-size: 16px;
   background-color: hsl(0, 0%, 100%);
@@ -86,10 +83,10 @@
     font-family: 'Young Serif', serif;
     color:hsl(14, 45%, 36%) ;
   }
-  @media (min-width: 767px) {
+  @media (min-width: 670px){
 
     body{
-        width: 40%;
+        width: 70%;
         background-color: hsl(30, 54%, 90%);
         margin: auto;
         padding: 50px 0;
@@ -99,6 +96,12 @@
         padding: 30px;
         border-radius: 20px;
         margin-bottom: 20px;
+      }
+
+      .content .recipe h1{
+        font-family: 'Young Serif', serif;;
+        line-height: 2rem;
+        margin-bottom: 1px;
       }
   }
 
